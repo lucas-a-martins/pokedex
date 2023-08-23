@@ -8,8 +8,10 @@ function fetchPokedexApi() {
             pokemon.setAttribute('id', i+1);
             pokedex.appendChild(pokemon);
 
+            let pokemonName = data.results[i].name;
+
             let pokeButton = document.createElement('button');
-            pokeButton.innerText = data.results[i].name.toUpperCase();
+            pokeButton.innerText = pokemonName.toUpperCase();
             pokemon.appendChild(pokeButton);
 
             fetch(data.results[i].url).then((response) => response.json()).then((description) => {
@@ -17,7 +19,11 @@ function fetchPokedexApi() {
 
                 let pokeDescription = document.createElement('div');
                 pokeDescription.classList.add('description', 'hidden');
+                pokeDescription.setAttribute('id', pokemonName);
                 pokemon.appendChild(pokeDescription);
+                pokeButton.onclick = () => {
+                    changeDisplay(pokeDescription);
+                };
 
                 let pokeInfo = document.createElement('p');
                 let text = [];
@@ -30,7 +36,6 @@ function fetchPokedexApi() {
                     allTypes.appendChild(addType(description.types[1].type.name));
                 }
                 pokeDescription.appendChild(allTypes);
-
             })
         }
     })
@@ -44,6 +49,6 @@ function addType(type) {
     return buttonType;
 }
 
-function changeDisplay (div) {
-    div.classList.remove('hidden');
+function changeDisplay(div) {
+    div.classList.toggle("hidden");
 }

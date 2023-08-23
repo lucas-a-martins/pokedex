@@ -2,11 +2,7 @@
 }
 
 .hidden {
-
-}
-
-.showing {
-    display: block;
+    display: none;
 }
 
 button {
