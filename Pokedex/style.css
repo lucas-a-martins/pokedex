@@ -1,4 +1,12 @@
 .description {
+    margin: 1%;
+}
+
+.poke-info {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 300px;
+    width: 500px;
 }
 
 .hidden {
@@ -13,6 +21,16 @@ button {
     cursor: pointer;
     width: 50%;
     display: block;
+}
+
+.main-img{
+    width: 200px;
+    height: auto;
+    display: inline-block;
+}
+
+.type-div {
+    display: inline-block;
 }
 
 .type-icon {
