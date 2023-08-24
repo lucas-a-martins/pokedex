@@ -19,3 +19,4 @@ The workspace contains two folders by default, where:
 - Adicionar imagens de cada Pokémon;
 - Adicionar opção de busca por Pokémon específico;
 - Adicionar filtro por tipo de Pokémon;
+- Organizar o código;
