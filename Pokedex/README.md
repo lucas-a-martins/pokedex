@@ -10,6 +10,7 @@ The workspace contains two folders by default, where:
 
 - `11/05/2023`: Início do projeto. Todos os Pokémon estão sendo listados na ordem padrão da National Pokédex, além de exibir uma descrição com seu número da Pokédex e seu(s) tipo(s).
 - `23/08/2023`: A descrição foi definida oculta por padrão. Foi adicionada a funcionalidade de clicar no nome de cada Pokémon para exibir sua descrição. Ao clicar novamente, a descrição voltará a ficar oculta.
+- `24/08/2023`: Adicionado imagens de cada Pokémon e também um _flavor text_ falando um pouco sobre o Pokémon.
 
 ## Possíveis próximos passos
 
