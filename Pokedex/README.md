@@ -1,18 +1,20 @@
-## Getting Started
+# National Dex (JavaScript)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+O objetivo desse projeto é criar uma National Pokedex utilizando JavaScript, HTML, CSS.
 
-## Folder Structure
+Os dados utilizados nesse projeto foram extraídos diretamente da [PokéAPI](https://pokeapi.co).
+
+## Changelog
 
 The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `11/05/2023`: Início do projeto. Todos os Pokémon estão sendo listados na ordem padrão da National Pokédex, além de exibir uma descrição com seu número da Pokédex e seu(s) tipo(s).
+- `23/08/2023`: A descrição foi definida oculta por padrão. Foi adicionada a funcionalidade de clicar no nome de cada Pokémon para exibir sua descrição. Ao clicar novamente, a descrição voltará a ficar oculta.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Possíveis próximos passos
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Remover o botão inicial para que a Pokédex seja gerada automaticamente;
+- Acrescentar informações na descrição de cada Pokémon;
+- Adicionar imagens de cada Pokémon;
+- Adicionar opção de busca por Pokémon específico;
+- Adicionar filtro por tipo de Pokémon;
