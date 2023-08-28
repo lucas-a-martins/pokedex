@@ -15,8 +15,9 @@ The workspace contains two folders by default, where:
 ## Possíveis próximos passos
 
 - Remover o botão inicial para que a Pokédex seja gerada automaticamente;
-- Acrescentar informações na descrição de cada Pokémon;
-- Adicionar imagens de cada Pokémon;
+- ~~Acrescentar informações na descrição de cada Pokémon;~~ :thumbsup: `24/08/2023`
+- Padronizar a linguagem das descrições;
+- ~~Adicionar imagens de cada Pokémon;~~ :thumbsup: `24/08/2023`
 - Adicionar opção de busca por Pokémon específico;
 - Adicionar filtro por tipo de Pokémon;
 - Organizar o código;
