@@ -2,11 +2,27 @@
     margin: 1%;
 }
 
+.pokemon {
+
+}
+
 .poke-info {
     border: 1px solid black;
     border-radius: 5px;
-    height: 300px;
-    width: 500px;
+    height: auto;
+    width: auto;
+    display: inline-block;
+}
+
+.div-img {
+    
+}
+
+.flavor-text {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px;
 }
 
 .hidden {
