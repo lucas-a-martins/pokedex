@@ -14,7 +14,7 @@ Os dados utilizados nesse projeto foram extraídos diretamente da [PokéAPI](htt
 
 - Remover o botão inicial para que a Pokédex seja gerada automaticamente;
 - ~~Acrescentar informações na descrição de cada Pokémon;~~ :thumbsup: `24/08/2023`
-- Padronizar a linguagem das descrições;
+- ~~Padronizar o idioma das descrições;~~ :thumbsup: `29/08/2023`
 - ~~Adicionar imagens de cada Pokémon;~~ :thumbsup: `24/08/2023`
 - Adicionar opção de busca por Pokémon específico;
 - Adicionar filtro por tipo de Pokémon;
